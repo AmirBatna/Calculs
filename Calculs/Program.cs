@@ -54,7 +54,9 @@ namespace Calculs
                         }
                     }
                     else
-                    {        
+                    {
+                        val1 = rand.Next(1, 10);
+                        val2 = rand.Next(1, 10);
                         // saisie de la réponse
                         Console.Write(val1 + " x " + val2 + " = ");
                         reponse = int.Parse(Console.ReadLine());
